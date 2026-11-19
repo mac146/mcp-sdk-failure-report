@@ -55,7 +55,7 @@ The docs sell `Client(mcp)` in-memory testing, which can't fail halfway. Ship a 
 ## Reproduce
 
 ```bash
-python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scriptsctivate
+python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install "mcp[cli]"==2.3.0
 python repro/run_cases.py          # add --full for the 5-minute default-timeout stall
 ```
